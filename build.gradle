@@ -16,10 +16,14 @@ apply plugin: 'java'
 apply plugin: 'kotlin'
 
 sourceCompatibility = 1.8
+project.ext.openrndrVersion = "0.3.3"
 
 repositories {
     mavenCentral()
     mavenLocal()
+    maven {
+        url="https://dl.bintray.com/openrndr/openrndr/"
+    }
 }
 
 switch (org.gradle.internal.os.OperatingSystem.current()) {
@@ -37,10 +41,11 @@ switch (org.gradle.internal.os.OperatingSystem.current()) {
 dependencies {
     compile "org.jetbrains.kotlin:kotlin-stdlib-jdk8:$kotlin_version"
     testCompile group: 'junit', name: 'junit', version: '4.12'
-    runtime "org.openrndr:openrndr-gl3:1.0.0-SNAPSHOT"
-    runtime "org.openrndr:openrndr-gl3-natives-$openrndrOS:1.0.0-SNAPSHOT"
-    compile "org.openrndr:openrndr-svg:1.0.0-SNAPSHOT"
-    compile "org.openrndr:openrndr-animatable:1.0.0-SNAPSHOT"
+    runtime "org.openrndr:openrndr-gl3:$openrndrVersion"
+    runtime "org.openrndr:openrndr-gl3-natives-$openrndrOS:$openrndrVersion"
+    compile "org.openrndr:openrndr-core:$openrndrVersion"
+    compile "org.openrndr:openrndr-svg:$openrndrVersion"
+    compile "org.openrndr:openrndr-animatable:$openrndrVersion"
 }
 
 compileKotlin {
