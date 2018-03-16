@@ -1,4 +1,4 @@
 # OpenRNDR gradle template
 
-## Run Configuration
+## On MacOS
 add `-XstartOnFirstThread` to JVM arguments (at Run/Edit Configurations/VM Options if you're using IntelliJ Idea)
