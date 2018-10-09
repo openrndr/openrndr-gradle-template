@@ -24,6 +24,7 @@ repositories {
     maven {
         url="https://dl.bintray.com/openrndr/openrndr/"
     }
+    maven { url 'https://jitpack.io' }
 }
 
 switch (org.gradle.internal.os.OperatingSystem.current()) {
