@@ -2,7 +2,7 @@ group 'org.openrndr.template'
 version '1.0-SNAPSHOT'
 
 buildscript {
-    ext.kotlin_version = '1.3.0'
+    ext.kotlin_version = '1.3.10'
 
     repositories {
         mavenCentral()
@@ -17,7 +17,7 @@ apply plugin: 'kotlin'
 apply plugin: 'application'
 
 sourceCompatibility = 1.8
-project.ext.openrndrVersion = "0.3.29"
+project.ext.openrndrVersion = "0.3.30"
 
 repositories {
     mavenCentral()
