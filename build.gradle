@@ -18,8 +18,8 @@ apply plugin: 'kotlin'
 apply plugin: 'application'
 
 sourceCompatibility = 1.8
-project.ext.openrndrVersion = "0.3.33-rc1"
-project.ext.orxVersion = "0.0.21"
+project.ext.openrndrVersion = "0.3.33-rc2"
+project.ext.orxVersion = "0.0.23"
 project.ext.panelVersion = "0.3.13"
 
 repositories {
