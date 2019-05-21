@@ -12,8 +12,6 @@ A bare-bones template for writing [OPENRNDR](http://openrndr.org) programs. Cont
  * `jar` creates an überjar that contains the program and all its dependencies
 
 ## Executable Jar
-The _jar_ file contains both the _OO_ and _FP_ template examples. 
-However, typically you would only have either one of these in your _project_ and _jar_ file. 
 
 Command line instructions line for this example:
 
