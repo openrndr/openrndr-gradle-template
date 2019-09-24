@@ -1,21 +1,21 @@
-# OPENRNDR Gradle template
+~# OPENRNDR Gradle template~
 
-A bare-bones template for writing [OPENRNDR](http://openrndr.org) programs. Contains Gradle project files and a minimal program example.
+~A bare-bones template for writing [OPENRNDR](http://openrndr.org) programs. Contains Gradle project files and a minimal program example.~
 
-## Intellij IDE
+## ~Intellij IDE~
 
-* Click the `run` widget next to `main()` in the left margin/gutter of the source file. 
+* ~Click the `run` widget next to `main()` in the left margin/gutter of the source file.~
 
-## Gradle tasks
+## ~Gradle tasks~
 
- * `run` runs the template program (with the correct JVM arguments)
- * `jar` creates an überjar that contains the program and all its dependencies
+ * ~`run` runs the template program (with the correct JVM arguments)~
+ * ~`jar` creates an überjar that contains the program and all its dependencies~
 
-## Executable Jar
+## ~Executable Jar~
 
-Command line instructions line for this example:
+~Command line instructions line for this example:~
 
-* For TemplateProgram.kt
+* ~For TemplateProgram.kt~
 ```
 java -jar myjar.jar
  
@@ -24,6 +24,6 @@ java -jar myjar.jar
 java -cp myjar.jar TemplateProgramKt
 ```
 
-## On MacOS
-add `-XstartOnFirstThread` to JVM arguments (at Run/Edit Configurations/VM Options if you're using IntelliJ Idea)
+## ~On MacOS~
+~add `-XstartOnFirstThread` to JVM arguments (at Run/Edit Configurations/VM Options if you're using IntelliJ Idea)~
 
