@@ -1,3 +1,5 @@
+This repository is abandoned! The template is superceded by [`openrndr-template`](https://github.com/openrndr/openrndr-template)
+
 ~# OPENRNDR Gradle template~
 
 ~A bare-bones template for writing [OPENRNDR](http://openrndr.org) programs. Contains Gradle project files and a minimal program example.~
